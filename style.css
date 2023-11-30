@@ -24,6 +24,7 @@ main {
     text-align: center;
     background-color: #000; /* Fundo preto para o player */
     padding: 15px;
+    padding-bottom: 56.25%;
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
