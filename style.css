@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000;
+    color: #ffd700; /* Dourado brilhante */
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#player {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000; /* Fundo preto para o player */
+    padding: 15px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#playlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centralizar episódios */
+}
+
+.episode {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #000; /* Dourado brilhante */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Texto em preto para contrastar com o fundo dourado */
+}
+
+.episode h3 {
+    color: #ffd700; /* Títulos dos podcasts em dourado brilhante */
+}
+
+footer {
+    background-color: #000;
+    color: #ffd700; /* Dourado brilhante */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
