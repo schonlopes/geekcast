@@ -17,6 +17,9 @@ main {
 }
 
 #player {
+    position: relative;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     background-color: #000; /* Fundo preto para o player */
